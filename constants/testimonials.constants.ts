@@ -1,0 +1,8 @@
+import AvatarImage from "@/assets/images/avatar.png";
+
+export const TESTIMONIALS = [
+    { id: 1, role: "Designer", author: "Claire Bell", content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.", image: AvatarImage },
+    { id: 2, role: "Designer", author: "Claire Bell", content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.", image: AvatarImage  },
+    { id: 3, role: "Designer", author: "Claire Bell", content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.", image: AvatarImage  },
+    { id: 4, role: "Designer", author: "Claire Bell", content: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.your financial goal for the month and year.", image: AvatarImage  },
+]

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-10 h-full;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-items {
+  @apply flex items-center;
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+.flex-between {
+  @apply flex items-center justify-between;
+}
+
+.grid-3 {
+  @apply grid lg:grid-cols-3;
+}
+
+.grid-2 {
+  @apply grid lg:grid-cols-2;
+}
+
+.text-gradient {
+  /* background-image: linear-gradient(180deg, #fea86b 0%, #4d52d5 100%); */
+  background: linear-gradient(0deg, #97B5FF 10.07%, #DFDFDF 54.51%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent;
+}
+
+
